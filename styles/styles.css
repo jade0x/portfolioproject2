@@ -34,6 +34,13 @@ h3 {
   font-weight: 300;
 }
 
+h4 {
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: var(--bs-primary);
+}
+
 .navbar {
   background-color: var(--bs-secondary);
 }
@@ -72,12 +79,12 @@ footer {
   text-align: center;
 }
 
-footer a {
+.email-link {
   text-decoration: none;
   color: black;
 }
 
-footer a:hover {
+.email-link:hover {
   color: var(--bs-primary);
 }
 
