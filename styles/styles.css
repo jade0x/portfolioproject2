@@ -92,7 +92,12 @@ footer a:hover {
 
 @media (max-width: 768px) {
   .hero-2 {
-    padding: 100px 20px 60px 20px;
+    padding: 100px 20px 60px 0px;
+  }
+
+  .about {
+    margin-top: 60px;
+    text-align: center;
   }
 }
 
