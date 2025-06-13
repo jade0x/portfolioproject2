@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bs-primary: #f28662;
+  --bs-secondary: #f5f5f5;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -11,14 +16,56 @@ html {
 body {
   font-size: 1.6rem;
   margin: 0 auto;
-  padding: 20px 20px;
   max-height: 100vh;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 h1 {
   font-family: "Staatliches", sans-serif;
+  font-size: 5em;
 }
 
-p {
-  font-family: "Roboto Flex", sans-serif;
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: var(--bs-secondary);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--bs-primary);
+}
+
+.hero {
+  margin: 0px auto;
+  padding: 100px 20px;
+  text-align: center;
+  background-color: var(--bs-secondary);
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.primary-link {
+  padding: 10px 30px;
+  background-color: var(--bs-primary);
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.primary-link:hover {
+  background-color: white;
+  color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+  text-decoration: none;
 }
