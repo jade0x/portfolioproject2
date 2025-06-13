@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -72,6 +70,7 @@ footer {
 }
 
 .primary-link {
+  margin-top: 500px;
   padding: 10px 30px;
   background-color: var(--bs-primary);
   border-radius: 40px;
