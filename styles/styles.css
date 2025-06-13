@@ -7,6 +7,7 @@
 :root {
   --bs-primary: #f28662;
   --bs-secondary: #f5f5f5;
+  --bs-primary-rgb: rgba(242, 134, 98, 0.17);
 }
 
 html {
@@ -51,8 +52,23 @@ h3 {
   background-color: var(--bs-secondary);
 }
 
+main {
+  margin: auto;
+  padding: 60px 20px;
+  max-width: 800px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  margin: auto;
+  padding: 30px 0;
+  max-width: 800px;
+  text-align: center;
+}
+
 .button {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .primary-link {
@@ -68,4 +84,44 @@ h3 {
   color: var(--bs-primary);
   border: 1px solid var(--bs-primary);
   text-decoration: none;
+}
+
+.secondary-link {
+  padding: 10px 30px;
+  background-color: white;
+  border: 1px solid var(--bs-primary);
+  border-radius: 40px;
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.secondary-link:hover {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+.project-image-bg {
+  background-color: var(--bs-secondary);
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: var(--bs-primary);
+}
+
+.fa-brands {
+  color: var(--bs-primary);
+  padding: 7px;
+  background-color: var(--bs-primary-rgb);
+  border-radius: 40px;
+}
+
+.fa-brands:hover {
+  color: white;
+  padding: 7px;
+  background-color: var(--bs-primary);
 }
