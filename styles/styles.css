@@ -90,6 +90,12 @@ footer a:hover {
   color: var(--bs-secondary2);
 }
 
+@media (max-width: 768px) {
+    .hero-2 {
+        100px 20px 60px 20px
+    }
+}
+
 .email-link {
   text-decoration: none;
   color: black;
@@ -101,6 +107,7 @@ footer a:hover {
 
 .button {
   margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 .primary-link {
