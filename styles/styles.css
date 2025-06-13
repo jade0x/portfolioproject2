@@ -91,9 +91,9 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .hero-2 {
-        100px 20px 60px 20px
-    }
+  .hero-2 {
+    padding: 100px 20px 60px 20px;
+  }
 }
 
 .email-link {
